@@ -1,0 +1,203 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+    font-family: 'Abel', sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 2px dotted red;
+}
+
+.wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 600px;
+    justify-content: space-around;
+}
+
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 300px;
+    background-color: black;
+    
+}   
+
+
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    width: 150px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100px;
+}
+.nav .poke{
+    height: 30px;
+    width: 150px;
+
+            
+}
+.nav .bowl{
+    margin-bottom: 15px;
+    
+}
+
+.nav .box{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.nav ul {
+    height: 200px;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 300px;
+}
+.nav ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.nav ul li img {
+    width: 130px;
+    height: 50px;
+}
+.nav ul .hours{
+    color: #cecece;
+    font-size: 15px;
+}
+.nav ul a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 250px;
+    background-color: #2b78e4;
+    margin-left: 130px;
+    border-radius: 10px;
+    
+
+}
+
+.bottom h2{
+    color: white; 
+    font-size: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 15px;
+}   
+.bottom p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.bottom img{
+    
+    width: 20px;
+    height: 30px;
+    margin: 5px;
+    
+}
+.bottom .one{
+    height: 35px;
+  
+    margin-left: 30px;
+}
+.bottom .two{
+    height: 30px;
+    margin-left: 60px;
+}
+.bottom .three{
+    height: 30px;
+    margin-left: 80px;
+}
+
+.secondbottom{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 250px;
+    background-color: #cf2a27;
+    margin-right: 40px;
+    border-radius: 10px;
+    
+}
+.secondbottom .pa{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.secondbottom p{
+    color: white;
+    height: 20px;
+    font-size: 25px;
+    margin-left: 15px;
+    
+    
+}
+.secondbottom h2{
+    color: white;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.secondbottom img{
+    width: 30px;
+    margin-left: 135px;
+    margin-bottom: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .nav{
+        display: none;
+    }
+    .bottom {
+        
+        
+    }
+}
